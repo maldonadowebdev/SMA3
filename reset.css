@@ -1,0 +1,186 @@
+body {
+    font-family: "epilogue";
+    font-size: 16px;
+    background-image: url("triangles.png"), url("background.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.content {
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+img {
+    
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(196, 196, 196, 0.65);
+    position: absolute;
+    left: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+p {
+    color: #384989;
+    font-size: 12px;
+}
+
+input {
+    color: #384989;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+#password, #confirm {
+    
+    background-color: rgba(196, 196, 196, 0.60);
+    border-radius: 5px;
+    border: none;
+    height: 35px; 
+    width: 400px;
+    padding-left: 10%;
+     
+}
+
+#reset {
+    
+    background-color: #ee9062;
+    box-shadow: 0px 4px 4px rgba(99, 156, 200, 0.85);
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+    padding: 3% 8% 2% 8%;
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: epilogue;
+    
+}
+
+#cancel {
+    background-color: #e2e2e2;
+    box-shadow: 0px 4px 4px rgba(99, 156, 200, 0.85);
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+    padding: 2% 8% 2% 8%;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: epilogue;
+}
+
+.texts {
+    margin-top: 15%;
+    margin-bottom: 5px;
+    text-align: left;
+    position: relative;
+    margin-left: 0;
+    right: 5%;
+    
+
+}
+
+.input-container {
+    position: relative;
+    right: 5%;
+    
+}
+
+span {
+    display: inline-block;
+}
+
+form {
+    max-width: 400px;
+}
+
+.heading-box {
+    position: relative;
+    max-width: 400px;
+}
+
+
+
+@media (max-width: 450px) {
+    body {
+        background-image: url("mobile-triangles.png"), url("background.png");
+    }
+
+    #password, #confirm {
+        background-color: rgba(196, 196, 196, 0.60);
+        border-radius: 5px;
+        border: none;
+        height: 19px; 
+        width: 200px;
+        padding-left: 10%; 
+    }
+    
+    .texts {
+        margin-top: 15%;
+        margin-bottom: 5px;
+        text-align: left;
+        position: relative;
+        padding-left: 5%;  
+        right:0;
+    
+    }
+
+    img {
+        padding: 3px;
+        border-radius: 5px;
+        background-color: rgba(196, 196, 196, 0.65);
+        position: absolute;
+        left: 0;
+        max-width: 11px;
+    }
+    .input-container {
+        position: relative;
+        right: 5%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h2 br {
+        display: none;
+    }
+
+    p {
+        color :#E2E2E2;
+    }
+    input {
+        max-width: 225px
+        ;
+    }
+}
+
+
+
+
