@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     background: linear-gradient(180deg, #EE9062 41.67%, #384989 100%);
     background-image: url("triangles.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 100%;
     height: 100%;
     text-align: center;
