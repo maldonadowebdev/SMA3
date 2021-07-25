@@ -1,22 +1,14 @@
-  
 body {
     font-family: "epilogue";
     font-size: 16px;
-    background-image: url("triangles.png"), url("background.png");
-    background-size: 100%;
-    width: 100%;
+    background-image: url("triangles.png"), linear-gradient(180deg, #EE9062 41.67%, #384989 100%);
+    background-size:cover;
+    width: auto;
     height: 100%;
+    min-height: 1032px;
     text-align: center;
 }
 
-.content {
-
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-}
 
 img {
     
@@ -27,11 +19,16 @@ img {
     left: 0;
 }
 
+span {
+    display: inline-block;
+}
+
 h1 {
     font-weight: 600;
     font-size: 36px;
     color: #FFFFFF;
 }
+
 
 h2 {
     font-weight: 500;
@@ -49,7 +46,6 @@ input {
     font-weight: 600;
     font-size: 15px;
 }
-
 
 #password, #confirm {
     
@@ -75,7 +71,6 @@ input {
     font-size: 15px;
     line-height: 15px;
     font-family: epilogue;
-    
 }
 
 #cancel {
@@ -92,6 +87,7 @@ input {
     font-family: epilogue;
 }
 
+
 .texts {
     margin-top: 15%;
     margin-bottom: 5px;
@@ -99,18 +95,11 @@ input {
     position: relative;
     margin-left: 0;
     right: 5%;
-    
-
 }
 
 .input-container {
     position: relative;
-    right: 5%;
-    
-}
-
-span {
-    display: inline-block;
+    right: 5%; 
 }
 
 form {
@@ -123,10 +112,18 @@ form {
 }
 
 
+.content {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 
 @media (max-width: 450px) {
     body {
-        background-image: url("mobile-triangles.png"), url("background.png");
+        background-image: url("mobile-triangles.png"), linear-gradient(180deg, #EE9062 41.67%, #384989 100%);
     }
 
     #password, #confirm {
@@ -145,7 +142,6 @@ form {
         position: relative;
         padding-left: 5%;  
         right:0;
-    
     }
 
     img {
@@ -177,8 +173,7 @@ form {
         color :#E2E2E2;
     }
     input {
-        max-width: 225px
-        ;
+        max-width: 225px;
     }
 }
 
